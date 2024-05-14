@@ -1,11 +1,11 @@
 const skills = [
     {
         "title": "HTML",
-        "src": "/src/assets/html-5.png"
+        "src": "../assets/html-5.png"
     },
     {
         "title": "CSS",
-        "src": "/src/assets/css-3.png"
+        "src": "../assets/css-3.png"
     },
     {
         "title": "JS",
