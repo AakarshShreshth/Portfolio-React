@@ -1,12 +1,13 @@
 import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
+import bgImg from '../assets/background.jpg'
 
 const Home = () => {
     return (
         <div id="home">
             <img
                 className="w-full h-screen object-cover"
-                src="src/assets/background.jpg"
+                src={bgImg}
                 alt="Background"
             />
             <div className="w-full h-screen absolute top-0 left-0 bg-white/65">

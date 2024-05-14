@@ -1,51 +1,64 @@
+import htmlImg from '../assets/html-5.png'
+import cssImg from "../assets/css-3.png"
+import jsImg from "../assets/js.png"
+import cppImg from "../assets/c-.png"
+import pythonImg from "../assets/python.png"
+import javaImg from "../assets/java.png"
+import reactImg from "../assets/react.png"
+import nodeImg from "../assets/nodejs.png"
+import gitImg from "../assets/git.svg"
+import ghImg from "../assets/github.png"
+import linuxImg from "../assets/linux.png"
+import mongoImg from "../assets/mongodb.svg"
+
 const skills = [
     {
         "title": "HTML",
-        "src": "/src/assets/html-5.png"
+        "src": htmlImg
     },
     {
         "title": "CSS",
-        "src": "/src/assets/css-3.png"
+        "src": cssImg
     },
     {
         "title": "JS",
-        "src": "/src/assets/js.png"
+        "src": jsImg
     },
     {
         "title": "C++",
-        "src": "/src/assets/c-.png"
+        "src": cppImg
     },
     {
         "title": "Python",
-        "src": "/src/assets/python.png"
+        "src": pythonImg
     },
     {
         "title": "Java",
-        "src": "/src/assets/java.png"
+        "src": javaImg
     },
     {
         "title": "React",
-        "src": "/src/assets/react.png"
+        "src": reactImg
     },
     {
         "title": "NodeJs",
-        "src": "/src/assets/nodejs.png"
+        "src": nodeImg
     },
     {
         "title": "Git",
-        "src": "/src/assets/git.svg"
+        "src": gitImg
     },
     {
         "title": "GitHub",
-        "src": "/src/assets/github.png"
+        "src": ghImg
     },
     {
         "title": "Linux",
-        "src": "/src/assets/linux.png"
+        "src": linuxImg
     },
     {
         "title": "MongoDB",
-        "src": "/src/assets/mongodb.svg"
+        "src": mongoImg
     },
 ]
 
