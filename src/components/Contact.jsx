@@ -18,6 +18,7 @@ const Contact = () => {
                         className="border-2 rounded-lg p-3 flex border-gray-300"
                         type="text"
                         name="name"
+                        required
                     />
                 </div>
                 <div className="flex flex-col py-2">
@@ -26,6 +27,7 @@ const Contact = () => {
                         className="border-2 rounded-lg p-3 flex border-gray-300"
                         type="email"
                         name="email"
+                        required
                     />
                 </div>
                 <div className="flex flex-col py-2">
@@ -34,10 +36,11 @@ const Contact = () => {
                         className="border-2 rounded-lg p-3 border-gray-300"
                         rows="10"
                         name="message"
+                        required
                     />
                 </div>
                 <button className="bg-[#001b5e] text-gray-100 mt-4 w-full p-4 rounded-lg font-semibold flex gap-2 justify-center items-center">
-                    <BsSend size={20}/>
+                    <BsSend size={20} />
                     Send Message
                 </button>
             </form>
